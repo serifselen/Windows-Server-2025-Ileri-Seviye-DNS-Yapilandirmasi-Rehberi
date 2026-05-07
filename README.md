@@ -49,7 +49,7 @@ Get-DnsServerZone -Name "serifselen.local" | Select-Object SecureSecondaries
 
 **2. Signing Sihirbazı Başlar:**
 
-![DNSSEC Signing Wizard Başlangıç](images/1.png)
+![DNSSEC Signing Wizard Başlangıç](Images/1.png)
 
 **Next** butonuna tıklayın.
 
@@ -139,7 +139,7 @@ Zone transfer, primary DNS sunucusundan secondary DNS sunucusuna zone verilerini
 
 `serifselen.local` zone'una sağ tıklayın > **Properties** > **Zone Transfers** sekmesi
 
-![Zone Transfer Settings](images/2.png)
+![Zone Transfer Settings](Images/2.png)
 
 **2. Transfer İzinlerini Yapılandırın:**
 
@@ -222,7 +222,7 @@ Sol panelde **Conditional Forwarders** düğümüne sağ tıklayın > **New Cond
 
 **2. Domain ve DNS Sunucuları:**
 
-![New Conditional Forwarder](images/3.png)
+![New Conditional Forwarder](Images/3.png)
 
 **Alanlar:**
 
@@ -404,7 +404,7 @@ DNS Manager'da sunucu adına sağ tıklayın > **Properties** > **Debug Logging*
 
 **2. Logging Ayarları:**
 
-![DNS Debug Logging](images/dns-debug-logging.png)
+![DNS Debug Logging](Images/dns-debug-logging.png)
 
 - ☑️ **Log packets for debugging**
 - **Log file location:** `C:\Windows\System32\dns\dns.log`
